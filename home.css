@@ -1,0 +1,109 @@
+/*base rem:
+  1rem = 16px
+*/
+
+/*Reseta as configurações de margem e padding de toda a pagina.*/
+* {
+  margin: 0;
+  padding: 0;
+  color: #D9E1CC;
+}
+
+/*Define as configurações do `body`.*/
+body {
+  background-color: #04211e;
+  color: #333;
+  margin-bottom:auto;
+}
+
+/*Define as configurações do `header`.*/
+header {
+  text-align: center;
+  padding: 2rem /*32px*/;
+}
+
+/*Define as configurações da imagem do `header`.*/
+header img {
+  border-radius: 50%;
+  width: 12.5rem /*200px*/;
+  margin: 2rem auto;
+  display: #333;
+}
+
+/*Define as configurações dos links gerais da página.*/
+a {
+  color: #f2f2f2;
+  padding: 0;
+}
+
+/*Define as configurações do id `about`.*/
+#about {
+  border: 0.063px /*1px*/ solid #333;
+  border-radius: 3rem /*48px*/;
+  margin: 3rem /*48px*/;
+  padding: 0.75rem /*12px*/;
+}
+
+/*Define as configurações do `H3` do id `about`.*/
+#about h3 {
+  text-align: center;
+  margin: 2.5rem /*40px*/ 0;
+}
+
+/*Define as configurações do `p` do id `about`.*/
+#about p {
+  text-align: justify;
+  padding: 1.25rem /*20px*/;
+}
+
+
+/*Define as configurações do `sapn` da tag `p` de toda a página.*/
+p span {
+  font-weight: bold;
+}
+
+
+/*Define as configurações do `footer`.*/
+footer {
+  background-color: #D9E1CC;
+  text-align: center;
+  margin: auto; 
+  padding: 1rem 0 1.6rem;
+}
+
+/*Define as configurações do `H3` do `footer`.*/
+footer h3 {
+  margin: 1.25rem /*20px*/ auto;
+  color: #04211e;
+}
+
+/*Define as configurações da tag `ul` de toda a página.*/
+ul{
+  display: block;
+  list-style: none;
+}
+
+/*Define as configurações da classe `social-links`.*/
+.social-links {
+  display: inline-block;
+  margin: auto;
+}
+
+/*Define as configurações de `li` da classe `social-links`.*/
+.social-links li {
+  width: 7.5rem /*120px*/;
+  height: 5.75rem /*92px*/;
+  margin: auto;
+}
+
+/*Define as configurações de imagem da `li` da classe `social-links`.*/
+.social-links li img {
+  width: 4.5rem /*72px*/;
+  height: 4.5rem /*72px*/;
+}
+.social-links li a{
+  width: 4.5rem /*72px*/;
+  height: 1.25rem /*20px*/;
+  margin: 0 1.5rem /*24px*/;
+  display: block;
+}
