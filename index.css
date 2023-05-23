@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  border-style: border-box;
 }
 
 body {
@@ -10,34 +9,36 @@ body {
 
 header img {
   border-radius: 50%;
-  width: 15rem;
+  width: 200px;
   margin: 0 auto;
   display: block;
 }
 
 header {
   text-align: center;
-  padding: 2rem;
+  padding: 40px;
 }
 
 a {
   color: black;
+  padding: 0;
 }
 
-section {
+#about {
   border: 1px solid black;
-  border-radius: 2rem;
-  margin: 3rem;
+  border-radius: 56px;
+  margin: 60px;
   padding: 12px;
 }
 
-section h3 {
-  margin: 1rem 0;
+#about h3 {
+  text-align: center;
+  margin: 40px 0;
 }
 
-p {
+#about p {
   text-align: justify;
-  margin-bottom: 1rem;
+  padding: 20px;
 }
 
 p span {
@@ -46,22 +47,37 @@ p span {
 
 footer {
   text-align: center;
-  margin: 2rem;
+  margin: 40px 0;
 }
 
 footer h3 {
-  margin: 1rem 0;
+  margin: 20px auto;
 }
 
-div {
+ul{
+  display: block;
+  list-style: none;
+}
+
+.social-links {
   display: inline-block;
+  margin: auto;
 }
 
-ul li {
-  display: inline-block;
-  margin: 0 10%;
+.social-links li {
+  width: 120px;
+  height: 90px;
+  margin: auto;
 }
 
-ul li img {
-  width: 50px;
+.social-links li img {
+  width: 70px;
+  height: 70px;
+}
+
+.social-links li a{
+  width: 70px;
+  height: 20px;
+  margin: 0 25px;
+  display: block;
 }
